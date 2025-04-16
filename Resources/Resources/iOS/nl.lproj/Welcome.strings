@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Kopen";
 "purchase.error.validation" = "U moet een e-mailadres invoeren";
 "purchase.error.connectivity.title" = "Verbindingsfout";
-"purchase.error.connectivity.description" = "We kunnen Private Internet Access niet bereiken. Dit kan komen door een slechte internetverbinding of omdat onze dienst in uw land is geblokkeerd.";
+"purchase.error.connectivity.description" = "We kunnen VP.NET niet bereiken. Dit kan komen door een slechte internetverbinding of omdat onze dienst in uw land is geblokkeerd.";
 "purchase.confirm.form.email" = "Voer uw e-mailadres in";
 "purchase.confirm.plan" = "U koop het %@-abonnement";
 "purchase.email.why" = "We hebben uw e-mailadres nodig om uw gebruikersnaam en wachtwoord te versturen.";
@@ -38,7 +38,7 @@
 "purchase.or" = "of";
 
 "upgrade.header" = "Welkom terug!";
-"upgrade.title" = "U moet uw abonnement vernieuwen om Private Internet Access te kunnen gebruiken.";
+"upgrade.title" = "U moet uw abonnement vernieuwen om VP.NET te kunnen gebruiken.";
 "upgrade.renew.now" = "Nu vernieuwen";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Persoonlijke informatie die we verzamelen";
 "gdpr.collect.data.description" = "E-mailadres voor accountbeheer en bescherming tegen misbruik.";
 "gdpr.usage.data.title" = "Gebruik van de persoonlijke informatie die we verzamelen";
-"gdpr.usage.data.description" = "E-mailadres wordt alleen gebruikt voor het verzenden van abonnementsinformatie, betalingsbevestigingen, correspondentie met klanten en promotionele aanbiedingen van Private Internet Access.";
+"gdpr.usage.data.description" = "E-mailadres wordt alleen gebruikt voor het verzenden van abonnementsinformatie, betalingsbevestigingen, correspondentie met klanten en promotionele aanbiedingen van VP.NET.";
 "gdpr.accept.button.title" = "Akkoord en doorgaan";
 
 "update.account.email.error" = "Kan accountmail niet aanpassen";

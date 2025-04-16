@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConnectionTile" customModule="PIA_VPN" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConnectionTile" customModule="VP_VPN" customModuleProvider="target">
             <connections>
                 <outlet property="authenticationLabel" destination="YXW-V6-BTx" id="SnN-3N-hvg"/>
                 <outlet property="encryptionLabel" destination="VEN-1G-9xo" id="L0L-xv-YaH"/>

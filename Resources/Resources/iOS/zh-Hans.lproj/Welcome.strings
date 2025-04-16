@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "购买";
 "purchase.error.validation" = "您必须输入一个电子邮箱地址。";
 "purchase.error.connectivity.title" = "连接失败";
-"purchase.error.connectivity.description" = "我们无法接入Private Internet Access。原因可能是互联网连接不良或者我们的服务在您的国家遭到屏蔽。";
+"purchase.error.connectivity.description" = "我们无法接入VP.NET。原因可能是互联网连接不良或者我们的服务在您的国家遭到屏蔽。";
 "purchase.confirm.form.email" = "请输入您的电子邮件地址";
 "purchase.confirm.plan" = "您正在购买 %@ 套餐";
 "purchase.email.why" = "我们需要您的电子邮件以发送您的用户名和密码。";
@@ -38,7 +38,7 @@
 "purchase.or" = "或";
 
 "upgrade.header" = "欢迎回来！";
-"upgrade.title" = "您需要续订才能使用 Private Internet Access。";
+"upgrade.title" = "您需要续订才能使用 VP.NET。";
 "upgrade.renew.now" = "立即续订";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "我们收集的个人信息";
 "gdpr.collect.data.description" = "用于账户管理和防止滥用的电子邮件地址。";
 "gdpr.usage.data.title" = "我们收集的个人信息的使用方式";
-"gdpr.usage.data.description" = "电子邮件地址仅用于发送订阅信息、付款确认、客户通信以及 Private Internet Access 促销优惠。";
+"gdpr.usage.data.description" = "电子邮件地址仅用于发送订阅信息、付款确认、客户通信以及 VP.NET 促销优惠。";
 "gdpr.accept.button.title" = "同意并继续";
 
 "update.account.email.error" = "无法修改账户电子邮件";

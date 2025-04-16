@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "購買";
 "purchase.error.validation" = "必須輸入電郵地址。";
 "purchase.error.connectivity.title" = "連線失敗";
-"purchase.error.connectivity.description" = "我們無法連線至 Private Internet Access。這可能是因為您的網路連線狀態不佳，或我們的服務在您的國家遭到封鎖。";
+"purchase.error.connectivity.description" = "我們無法連線至 VP.NET。這可能是因為您的網路連線狀態不佳，或我們的服務在您的國家遭到封鎖。";
 "purchase.confirm.form.email" = "請輸入您的電子郵件地址";
 "purchase.confirm.plan" = "您正在購買 %@ 方案";
 "purchase.email.why" = "請提供電子郵件以便我們傳送使用者名稱及密碼。";
@@ -38,7 +38,7 @@
 "purchase.or" = "或";
 
 "upgrade.header" = "歡迎回來！";
-"upgrade.title" = "如果要使用 Private Internet Access，您必須續訂。";
+"upgrade.title" = "如果要使用 VP.NET，您必須續訂。";
 "upgrade.renew.now" = "立即續訂";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "我們收集的個人資料";
 "gdpr.collect.data.description" = "電子郵件地址用於管理帳戶及防止濫用。";
 "gdpr.usage.data.title" = "我們收集個人資料的用途";
-"gdpr.usage.data.description" = "電子郵件地址僅用於傳送訂閱資訊、付款確認函、客戶通訊及 Private Internet Access 的促銷優惠。";
+"gdpr.usage.data.description" = "電子郵件地址僅用於傳送訂閱資訊、付款確認函、客戶通訊及 VP.NET 的促銷優惠。";
 "gdpr.accept.button.title" = "同意並繼續";
 
 "update.account.email.error" = "無法修改帳戶電子郵件";

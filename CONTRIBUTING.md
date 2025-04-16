@@ -1,5 +1,5 @@
 # Contribution Guidelines
-Private Internet Access welcomes community contributions, and are always looking for ways in which to improve. Please take a look at our contribution guidelines, and get involved with the PIA community.
+VP.NET welcomes community contributions, and are always looking for ways in which to improve. Please take a look at our contribution guidelines, and get involved with the PIA community.
 
 ## Bugs and Issues
 Have you found a bug? Is our software behaving in an unexpected way? Please check the open issues for duplicates -- perhaps a fix is already in development, or maybe a solution has already been published. 

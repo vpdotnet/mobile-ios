@@ -24,7 +24,7 @@
 # Notes:
 # ======
 # 
-# This only updates PIA VPN/lang.lproj/*.strings
+# This only updates VP VPN/lang.lproj/*.strings
 
 
 "project_id" : "487811"
@@ -36,7 +36,6 @@
 
 files: [
  {
-  "source" : "PIA VPN/en.lproj/*.strings",
-  "translation" : "PIA VPN/%osx_code%/%original_file_name%",
+  "source" : "VP VPN/en.lproj/*.strings",
+  "translation" : "VP VPN/%osx_code%/%original_file_name%",
  }
-]

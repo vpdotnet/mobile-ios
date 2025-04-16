@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Køb";
 "purchase.error.validation" = "Du skal indtaste en e-mailadresse";
 "purchase.error.connectivity.title" = "Forbindelsesfejl";
-"purchase.error.connectivity.description" = "Vi kan ikke nå Private Internet Access. Dette kan skyldes dårlig internet eller at vores service er blokeret i dit land.";
+"purchase.error.connectivity.description" = "Vi kan ikke nå VP.NET. Dette kan skyldes dårlig internet eller at vores service er blokeret i dit land.";
 "purchase.confirm.form.email" = "Indtast din e-mailadresse";
 "purchase.confirm.plan" = "Du køber %@-planen";
 "purchase.email.why" = "Vi har brug for din e-mail for at sende dit brugernavn og din adgangskode.";
@@ -38,7 +38,7 @@
 "purchase.or" = "eller";
 
 "upgrade.header" = "Velkommen tilbage!";
-"upgrade.title" = "For at bruge Private Internet Access skal du forny dit abonnement.";
+"upgrade.title" = "For at bruge VP.NET skal du forny dit abonnement.";
 "upgrade.renew.now" = "Forny nu";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Personlige oplysninger, vi indsamler";
 "gdpr.collect.data.description" = "E-mailadresse med henblik på kontohåndtering og beskyttelse mod misbrug.";
 "gdpr.usage.data.title" = "Anvendelse af personlige oplysninger indsamlet af os";
-"gdpr.usage.data.description" = "E-mailadresse bruges kun til at sende abonnementsoplysninger, betalingsbekræftelser, kundekorrespondance og salgsfremmende tilbud fra Private Internet Access.";
+"gdpr.usage.data.description" = "E-mailadresse bruges kun til at sende abonnementsoplysninger, betalingsbekræftelser, kundekorrespondance og salgsfremmende tilbud fra VP.NET.";
 "gdpr.accept.button.title" = "Accepter og fortsæt";
 
 "update.account.email.error" = "Lykkedes ikke at ændre konto-e-mail";

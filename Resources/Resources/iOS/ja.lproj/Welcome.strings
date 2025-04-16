@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "購入";
 "purchase.error.validation" = "必ずメールアドレスを入力してください。";
 "purchase.error.connectivity.title" = "接続エラー";
-"purchase.error.connectivity.description" = "Private Internet Accessに接続できませんでした。インターネットの接続が不安定、もしくはお住まいの国で当社サービスがブロックされている可能性があります。";
+"purchase.error.connectivity.description" = "VP.NETに接続できませんでした。インターネットの接続が不安定、もしくはお住まいの国で当社サービスがブロックされている可能性があります。";
 "purchase.confirm.form.email" = "メールアドレスを入力してください";
 "purchase.confirm.plan" = "お客様は%@プランを購入しようとしています";
 "purchase.email.why" = "ユーザー名とパスワードを送信するためのメールアドレスを入力してください。";
@@ -38,7 +38,7 @@
 "purchase.or" = "または";
 
 "upgrade.header" = "お帰りなさい！";
-"upgrade.title" = "Private Internet Accessのご利用を継続するには、サブスクリプションを更新する必要があります。";
+"upgrade.title" = "VP.NETのご利用を継続するには、サブスクリプションを更新する必要があります。";
 "upgrade.renew.now" = "今すぐ更新";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "弊社が収集する個人情報";
 "gdpr.collect.data.description" = "メールアドレスは、アカウント管理、および乱用からの保護を目的とします。";
 "gdpr.usage.data.title" = "弊社により収集される個人情報の使用";
-"gdpr.usage.data.description" = "メールアドレスはサブスクリプション情報、お支払確認、お客様とのやり取り、およびPrivate Internet Accessのプロモーションオファーを送信するためにのみ使用されます。";
+"gdpr.usage.data.description" = "メールアドレスはサブスクリプション情報、お支払確認、お客様とのやり取り、およびVP.NETのプロモーションオファーを送信するためにのみ使用されます。";
 "gdpr.accept.button.title" = "同意して続行する";
 
 "update.account.email.error" = "アカウントのメールを変更できませんでした";

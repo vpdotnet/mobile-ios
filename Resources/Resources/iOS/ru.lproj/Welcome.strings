@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Купить";
 "purchase.error.validation" = "Укажите адрес эл. почты.";
 "purchase.error.connectivity.title" = "Ошибка подключения";
-"purchase.error.connectivity.description" = "Не удалось подключиться к Private Internet Access. Это может быть из-за плохого качества соединения с Интернетом, или наша служба заблокирована в вашей стране.";
+"purchase.error.connectivity.description" = "Не удалось подключиться к VP.NET. Это может быть из-за плохого качества соединения с Интернетом, или наша служба заблокирована в вашей стране.";
 "purchase.confirm.form.email" = "Введите свой адрес эл. почты";
 "purchase.confirm.plan" = "Вы приобретаете план «%@»";
 "purchase.email.why" = "Нам нужен ваш электронный адрес, чтобы мы могли прислать вам имя пользователя и пароль.";
@@ -38,7 +38,7 @@
 "purchase.or" = "или";
 
 "upgrade.header" = "С возвращением!";
-"upgrade.title" = "Чтобы пользоваться  Private Internet Access, вам необходимо продлить подписку.";
+"upgrade.title" = "Чтобы пользоваться  VP.NET, вам необходимо продлить подписку.";
 "upgrade.renew.now" = "Продлить";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Личная информация, которую мы собираем";
 "gdpr.collect.data.description" = "Адрес эл. почты используется в целях управления учетной записью и защиты от злоупотреблений.";
 "gdpr.usage.data.title" = "Использование собираемой нами личной информации";
-"gdpr.usage.data.description" = "Адрес эл. почты используется исключительно для отправки информации о подписке, подтверждений оплаты, переписки с пользователем и отправки акционных предложений Private Internet Access.";
+"gdpr.usage.data.description" = "Адрес эл. почты используется исключительно для отправки информации о подписке, подтверждений оплаты, переписки с пользователем и отправки акционных предложений VP.NET.";
 "gdpr.accept.button.title" = "Принять и продолжить";
 
 "update.account.email.error" = "Не удалось изменить эл. адрес учетной записи";

@@ -1,16 +1,16 @@
 [![PIA logo][pia-image]][pia-url]
 
-# Private Internet Access
+# VP.NET
 
-Private Internet Access is the world's leading consumer VPN service. At Private Internet Access we believe in unfettered access for all, and as a firm supporter of the open source ecosystem we have made the decision to open source our VPN clients. For more information about the PIA service, please visit our website [privateinternetaccess.com][pia-url] or check out the [Wiki][pia-wiki].
+VP.NET is the world's leading consumer VPN service. At VP.NET we believe in unfettered access for all, and as a firm supporter of the open source ecosystem we have made the decision to open source our VPN clients. For more information about the PIA service, please visit our website [vp.net][pia-url] or check out the [Wiki][pia-wiki].
 
-# PIA VPN for iOS
+# VP VPN for iOS
 
-With the Private Internet Access VPN app for iOS, you can access our network of VPN servers across the world from your iPhone, iPad or iPod touch (64-bit only). Choose among many available countries and connect to them easily. Features include kill switch, multiple VPN protocols, DNS/IPv6 leak protection and Safari Content Blocker for ad-blocking while browsing with Safari.
+With the VP.NET VPN app for iOS, you can access our network of VPN servers across the world from your iPhone, iPad or iPod touch (64-bit only). Choose among many available countries and connect to them easily. Features include kill switch, multiple VPN protocols, DNS/IPv6 leak protection and Safari Content Blocker for ad-blocking while browsing with Safari.
 
 ## Getting started
 
-The PIA VPN app features:
+The VP VPN app features:
 
 - [x] Plenty of countries to connect to (28 as of today)
 - [x] IKEv2, OpenVPN and WireGuard VPN Protocols
@@ -75,8 +75,8 @@ This project is licensed under the [MIT (Expat) license](https://choosealicense.
 
 © 2002-2018 OpenVPN Inc. - OpenVPN is a registered trademark of OpenVPN Inc.
 
-[pia-image]: https://www.privateinternetaccess.com/assets/PIALogo2x-0d1e1094ac909ea4c93df06e2da3db4ee8a73d8b2770f0f7d768a8603c62a82f.png
-[pia-url]: https://www.privateinternetaccess.com/
+[pia-image]: https://www.vp.net/assets/PIALogo2x-0d1e1094ac909ea4c93df06e2da3db4ee8a73d8b2770f0f7d768a8603c62a82f.png
+[pia-url]: https://www.vp.net/
 [pia-wiki]: https://en.wikipedia.org/wiki/Private_Internet_Access
 
 [dep-swiftgen]: https://github.com/SwiftGen/SwiftGen

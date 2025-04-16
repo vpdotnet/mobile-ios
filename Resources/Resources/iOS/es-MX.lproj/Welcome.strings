@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Comprar";
 "purchase.error.validation" = "Debes ingresar una dirección de email.";
 "purchase.error.connectivity.title" = "Falla en la conexión";
-"purchase.error.connectivity.description" = "No pudimos localizar a Private Internet Access. Esto puede ser debido a una mala conexión con Internet o a que nuestro servicio está bloqueado en su país.";
+"purchase.error.connectivity.description" = "No pudimos localizar a VP.NET. Esto puede ser debido a una mala conexión con Internet o a que nuestro servicio está bloqueado en su país.";
 "purchase.confirm.form.email" = "Introduce tu dirección de correo electrónico";
 "purchase.confirm.plan" = "Estás comprando el plan %@.";
 "purchase.email.why" = "Necesitamos tu dirección de correo electrónico para enviar tu nombre de usuario y tu contraseña.";
@@ -38,7 +38,7 @@
 "purchase.or" = "o";
 
 "upgrade.header" = "¡Hola otra vez!";
-"upgrade.title" = "Para usar Private Internet Access debes renovar tu suscripción.";
+"upgrade.title" = "Para usar VP.NET debes renovar tu suscripción.";
 "upgrade.renew.now" = "Renovar ahora";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Información personal que recopilamos";
 "gdpr.collect.data.description" = "Dirección de correo electrónico con fines de gestión de cuenta y protección frente a abusos.";
 "gdpr.usage.data.title" = "Usos de la información personal que recopilamos";
-"gdpr.usage.data.description" = "La dirección de correo electrónico solo se usa para enviar información de suscripción, confirmaciones de pago, correspondencia al cliente y ofertas promocionales de Private Internet Access.";
+"gdpr.usage.data.description" = "La dirección de correo electrónico solo se usa para enviar información de suscripción, confirmaciones de pago, correspondencia al cliente y ofertas promocionales de VP.NET.";
 "gdpr.accept.button.title" = "Aceptar y continuar";
 
 "update.account.email.error" = "Error al modificar el correo electrónico de la cuenta";

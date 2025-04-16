@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -38,7 +38,7 @@
 "purchase.or" = "o";
 
 "upgrade.header" = "Bentornato!";
-"upgrade.title" = "Per usare Private Internet Access, devi rinnovare l'abbonamento.";
+"upgrade.title" = "Per usare VP.NET, devi rinnovare l'abbonamento.";
 "upgrade.renew.now" = "Rinnova adesso";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Dati personali da noi raccolti";
 "gdpr.collect.data.description" = "Indirizzo email ai fini di gestione dell'account e della protezione dall'uso improprio.";
 "gdpr.usage.data.title" = "Usi delle informazioni personali da noi richieste";
-"gdpr.usage.data.description" = "L'indirizzo email viene utilizzato solo per inviare informazioni sull'abbonamento, conferme di pagamento, corrispondenza col cliente e offerte promozionali di Private Internet Access.";
+"gdpr.usage.data.description" = "L'indirizzo email viene utilizzato solo per inviare informazioni sull'abbonamento, conferme di pagamento, corrispondenza col cliente e offerte promozionali di VP.NET.";
 "gdpr.accept.button.title" = "Accetta e continua";
 
 "update.account.email.error" = "Modifica email account non riuscita";

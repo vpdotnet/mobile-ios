@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "구매";
 "purchase.error.validation" = "이메일 주소를 입력하셔야 합니다.";
 "purchase.error.connectivity.title" = "연결 실패";
-"purchase.error.connectivity.description" = "Private Internet Access에 접속할 수 없습니다. 인터넷 연결 상태가 좋지 않거나 귀하의 국가에서 당사의 서비스가 차단된 것 같습니다.";
+"purchase.error.connectivity.description" = "VP.NET에 접속할 수 없습니다. 인터넷 연결 상태가 좋지 않거나 귀하의 국가에서 당사의 서비스가 차단된 것 같습니다.";
 "purchase.confirm.form.email" = "이메일 주소를 입력하세요";
 "purchase.confirm.plan" = "%@ 플랜을 구매합니다";
 "purchase.email.why" = "사용자 이름 및 비밀번호를 보내 드리면 고객님의 이메일 주소가 필요합니다.";
@@ -38,7 +38,7 @@
 "purchase.or" = "또는";
 
 "upgrade.header" = "다시 오신 걸 환영합니다!";
-"upgrade.title" = "Private Internet Access를 사용하려면 구독을 갱신하셔야 합니다.";
+"upgrade.title" = "VP.NET를 사용하려면 구독을 갱신하셔야 합니다.";
 "upgrade.renew.now" = "지금 갱신";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "당사가 수집하는 개인 정보";
 "gdpr.collect.data.description" = "계정 관리 및 악용 방지를 위한 이메일 주소.";
 "gdpr.usage.data.title" = "수집된 개인 정보의 사용";
-"gdpr.usage.data.description" = "이메일 주소는 구독 정보, 결제 확인, 고객 공지 사항 및 Private Internet Access 프로모션 정보를 보내는 데에만 사용됩니다.";
+"gdpr.usage.data.description" = "이메일 주소는 구독 정보, 결제 확인, 고객 공지 사항 및 VP.NET 프로모션 정보를 보내는 데에만 사용됩니다.";
 "gdpr.accept.button.title" = "동의 및 계속";
 
 "update.account.email.error" = "계정 이메일을 수정하지 못했습니다";

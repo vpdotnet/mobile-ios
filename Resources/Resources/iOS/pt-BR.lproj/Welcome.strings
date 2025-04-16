@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Comprar";
 "purchase.error.validation" = "Você precisa inserir um endereço de e-mail.";
 "purchase.error.connectivity.title" = "Falha na conexão";
-"purchase.error.connectivity.description" = "Não conseguimos acessar o Private Internet Access. Isso pode ser devido a uma conexão de internet fraca ou o nosso serviço está bloqueado em seu país.";
+"purchase.error.connectivity.description" = "Não conseguimos acessar o VP.NET. Isso pode ser devido a uma conexão de internet fraca ou o nosso serviço está bloqueado em seu país.";
 "purchase.confirm.form.email" = "Insira seu endereço de e-mail";
 "purchase.confirm.plan" = "Você está adquirindo o plano %@";
 "purchase.email.why" = "Precisamos do seu e-mail para enviarmos seu nome de usuário e senha.";
@@ -38,7 +38,7 @@
 "purchase.or" = "ou";
 
 "upgrade.header" = "Seja bem-vindo(a)!";
-"upgrade.title" = "Para usar a Private Internet Access, você precisará renovar sua assinatura.";
+"upgrade.title" = "Para usar a VP.NET, você precisará renovar sua assinatura.";
 "upgrade.renew.now" = "Renovar agora";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Informações pessoais que coletamos";
 "gdpr.collect.data.description" = "Endereço de e-mail para gerenciamento de conta e proteção contra abuso.";
 "gdpr.usage.data.title" = "Uso de informações pessoais coletadas por nós";
-"gdpr.usage.data.description" = "O endereço de e-mail é utilizado apenas para enviar informação de assinatura, confirmações de pagamento, correspondência com clientes e ofertas promocionais do Private Internet Access.";
+"gdpr.usage.data.description" = "O endereço de e-mail é utilizado apenas para enviar informação de assinatura, confirmações de pagamento, correspondência com clientes e ofertas promocionais do VP.NET.";
 "gdpr.accept.button.title" = "Concordar e continuar";
 
 "update.account.email.error" = "Falha ao modificar o e-mail da conta";

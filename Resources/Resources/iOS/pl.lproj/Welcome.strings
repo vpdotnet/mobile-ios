@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Zakup";
 "purchase.error.validation" = "Musisz podać adres e-mail.";
 "purchase.error.connectivity.title" = "Błąd połączenia";
-"purchase.error.connectivity.description" = "Nie można połączyć z Private Internet Access. Może to być spowodowane słabym połączeniem z internetem lub nasza usługa może być zablokowana w Twoim kraju.";
+"purchase.error.connectivity.description" = "Nie można połączyć z VP.NET. Może to być spowodowane słabym połączeniem z internetem lub nasza usługa może być zablokowana w Twoim kraju.";
 "purchase.confirm.form.email" = "Podaj swój adres e-mail";
 "purchase.confirm.plan" = "Kupujesz abonament %@";
 "purchase.email.why" = "Twój e-mail jest nam potrzebny do przesłania Ci nazwy użytkownika i hasła,";
@@ -38,7 +38,7 @@
 "purchase.or" = "lub";
 
 "upgrade.header" = "Witaj ponownie!";
-"upgrade.title" = "Aby korzystać z Private Internet Access, musisz odnowić swoją subskrypcję.";
+"upgrade.title" = "Aby korzystać z VP.NET, musisz odnowić swoją subskrypcję.";
 "upgrade.renew.now" = "Odnów teraz";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Zbierane dane osobowe";
 "gdpr.collect.data.description" = "Adres e-mail do zarządzania kontem i ochrony przed nadużyciami.";
 "gdpr.usage.data.title" = "Sposoby wykorzystania zbieranych przez nas danych osobowych";
-"gdpr.usage.data.description" = "Adres e-mail; używany go do wysyłania informacji o subskrypcji, potwierdzeń płatności, korespondencji z klientami i wysyłania ofert promocyjnych wyłącznie Private Internet Access";
+"gdpr.usage.data.description" = "Adres e-mail; używany go do wysyłania informacji o subskrypcji, potwierdzeń płatności, korespondencji z klientami i wysyłania ofert promocyjnych wyłącznie VP.NET";
 "gdpr.accept.button.title" = "Zaakceptuj i kontynuuj";
 
 "update.account.email.error" = "Nie udało się zmienić adresu e-mail konta";

@@ -7,17 +7,17 @@ platform :ios do
   key_content = ENV['APP_STORE_CONNECT_KEY']
 
   lane :tests do
-    run_tests(scheme: "PIA VPN")
+    run_tests(scheme: "VP VPN")
   end
 
   lane :tvOStests do
-    run_tests(scheme: "PIA VPN-tvOS")
+    run_tests(scheme: "VP VPN-tvOS")
   end
 
   lane :ios_e2e_tests do
     run_tests(
-      scheme: "PIA VPN dev",
-      testplan: "PIA-VPN-e2e-simulator",
+      scheme: "VP VPN dev",
+      testplan: "VP-VPN-e2e-simulator",
       devices: ["iPhone 14"],
       prelaunch_simulator: true,
       test_without_building: true
@@ -26,8 +26,8 @@ platform :ios do
 
   lane :tvos_e2e_tests do
     run_tests(
-      scheme: "PIA VPN-tvOS",
-      testplan: "PIA-VPN_tvOS_E2E_Tests",
+      scheme: "VP VPN-tvOS",
+      testplan: "VP-VPN_tvOS_E2E_Tests",
       test_without_building: true,
       prelaunch_simulator: true,
       device: "Apple TV"
@@ -36,8 +36,8 @@ platform :ios do
 
   lane :tvos_snapshot_tests do
     run_tests(
-      scheme: "PIA VPN-tvOS",
-      testplan: "PIA VPN-tvOS snapshot",
+      scheme: "VP VPN-tvOS",
+      testplan: "VP VPN-tvOS snapshot",
       test_without_building: true,
       prelaunch_simulator: true,
       device: "Apple TV"
@@ -62,16 +62,16 @@ platform :ios do
     get_provisioning_profile(
       development: development_profiles,
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN",
-      provisioning_name: "#{prov_name_preffix} com.privateinternetaccess.ios.PIA-VPN",
+      app_identifier: "net.vp.ios.VP-VPN",
+      provisioning_name: "#{prov_name_preffix} net.vp.ios.VP-VPN",
       fail_on_name_taken: true
     )
 
     get_provisioning_profile(
       development: development_profiles,
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN.Tunnel",
-      provisioning_name: "#{prov_name_preffix} com.privateinternetaccess.ios.PIA-VPN.Tunnel",
+      app_identifier: "net.vp.ios.VP-VPN.Tunnel",
+      provisioning_name: "#{prov_name_preffix} net.vp.ios.VP-VPN.Tunnel",
       fail_on_name_taken: true
     )
 
@@ -79,24 +79,24 @@ platform :ios do
     get_provisioning_profile(
       development: development_profiles,
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel",
-      provisioning_name: "#{prov_name_preffix} com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel",
+      app_identifier: "net.vp.ios.VP-VPN.WG-Tunnel",
+      provisioning_name: "#{prov_name_preffix} net.vp.ios.VP-VPN.WG-Tunnel",
       fail_on_name_taken: true
     )
 
     get_provisioning_profile(
       development: development_profiles,
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN.PIAWidget",
-      provisioning_name: "#{prov_name_preffix} com.privateinternetaccess.ios.PIA-VPN.PIAWidget",
+      app_identifier: "net.vp.ios.VP-VPN.VPWidget",
+      provisioning_name: "#{prov_name_preffix} net.vp.ios.VP-VPN.VPWidget",
       fail_on_name_taken: true
     )
 
     get_provisioning_profile(
       development: development_profiles,
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN.AdBlocker",
-      provisioning_name: "#{prov_name_preffix} com.privateinternetaccess.ios.PIA-VPN.AdBlocker",
+      app_identifier: "net.vp.ios.VP-VPN.AdBlocker",
+      provisioning_name: "#{prov_name_preffix} net.vp.ios.VP-VPN.AdBlocker",
       fail_on_name_taken: true
     )
 
@@ -115,7 +115,7 @@ platform :ios do
 
     get_provisioning_profile(
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN",
+      app_identifier: "net.vp.ios.VP-VPN",
       provisioning_name: "PIA Distribution tvOS",
       platform: "tvos",
       fail_on_name_taken: true
@@ -123,7 +123,7 @@ platform :ios do
 
     get_provisioning_profile(
       api_key: api_key,
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN.PacketTunnel",
+      app_identifier: "net.vp.ios.VP-VPN.PacketTunnel",
       provisioning_name: "PIA Distribution tvOS PacketTunnel",
       platform: "tvos",
       fail_on_name_taken: true
@@ -148,10 +148,10 @@ platform :ios do
     current_branch = git_branch()
     commit_hash = last_git_commit()
     short_hash = commit_hash[:abbreviated_commit_hash]
-    archive_path = "PIA_VPN_iOS_production.#{current_branch}_#{short_hash}"
+    archive_path = "VP_VPN_iOS_production.#{current_branch}_#{short_hash}"
     archive_zip_name = "#{archive_path}.zip"
 
-    build_app(scheme: "PIA VPN",
+    build_app(scheme: "VP VPN",
       export_method: "app-store",
       clean: true,
       configuration: "Release",
@@ -159,11 +159,11 @@ platform :ios do
       output_name: "#{archive_path}.ipa",
       export_options: {
         provisioningProfiles: { 
-          "com.privateinternetaccess.ios.PIA-VPN" => "match AppStore com.privateinternetaccess.ios.PIA-VPN",
-          "com.privateinternetaccess.ios.PIA-VPN.Tunnel" => "match AppStore com.privateinternetaccess.ios.PIA-VPN.Tunnel",
-          "com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel" => "match AppStore com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel",
-          "com.privateinternetaccess.ios.PIA-VPN.PIAWidget" => "match AppStore com.privateinternetaccess.ios.PIA-VPN.PIAWidget",
-          "com.privateinternetaccess.ios.PIA-VPN.AdBlocker" => "match AppStore com.privateinternetaccess.ios.PIA-VPN.AdBlocker"
+          "net.vp.ios.VP-VPN" => "match AppStore net.vp.ios.VP-VPN",
+          "net.vp.ios.VP-VPN.Tunnel" => "match AppStore net.vp.ios.VP-VPN.Tunnel",
+          "net.vp.ios.VP-VPN.WG-Tunnel" => "match AppStore net.vp.ios.VP-VPN.WG-Tunnel",
+          "net.vp.ios.VP-VPN.VPWidget" => "match AppStore net.vp.ios.VP-VPN.VPWidget",
+          "net.vp.ios.VP-VPN.AdBlocker" => "match AppStore net.vp.ios.VP-VPN.AdBlocker"
         }
       }
     )
@@ -189,10 +189,10 @@ platform :ios do
     current_branch = git_branch()
     commit_hash = last_git_commit()
     short_hash = commit_hash[:abbreviated_commit_hash]
-    archive_path = "PIA_VPN_iOS.#{current_branch}_#{short_hash}"
+    archive_path = "VP_VPN_iOS.#{current_branch}_#{short_hash}"
     archive_zip_name = "#{archive_path}.zip"
 
-    build_app(scheme: "PIA VPN",
+    build_app(scheme: "VP VPN",
       export_method: "development",
       clean: true,
       configuration: "Debug",
@@ -200,11 +200,11 @@ platform :ios do
       output_name: "#{archive_path}.ipa",
       export_options: {
         provisioningProfiles: { 
-          "com.privateinternetaccess.ios.PIA-VPN" => "match Development com.privateinternetaccess.ios.PIA-VPN",
-          "com.privateinternetaccess.ios.PIA-VPN.Tunnel" => "match Development com.privateinternetaccess.ios.PIA-VPN.Tunnel",
-          "com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel" => "match Development com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel",
-          "com.privateinternetaccess.ios.PIA-VPN.PIAWidget" => "match Development com.privateinternetaccess.ios.PIA-VPN.PIAWidget",
-          "com.privateinternetaccess.ios.PIA-VPN.AdBlocker" => "match Development com.privateinternetaccess.ios.PIA-VPN.AdBlocker"
+          "net.vp.ios.VP-VPN" => "match Development net.vp.ios.VP-VPN",
+          "net.vp.ios.VP-VPN.Tunnel" => "match Development net.vp.ios.VP-VPN.Tunnel",
+          "net.vp.ios.VP-VPN.WG-Tunnel" => "match Development net.vp.ios.VP-VPN.WG-Tunnel",
+          "net.vp.ios.VP-VPN.VPWidget" => "match Development net.vp.ios.VP-VPN.VPWidget",
+          "net.vp.ios.VP-VPN.AdBlocker" => "match Development net.vp.ios.VP-VPN.AdBlocker"
         }
       }
     )
@@ -220,10 +220,10 @@ platform :ios do
     current_branch = git_branch()
     commit_hash = last_git_commit()
     short_hash = commit_hash[:abbreviated_commit_hash]
-    archive_path = "PIA_VPN_dev_iOS.#{current_branch}_#{short_hash}"
+    archive_path = "VP_VPN_dev_iOS.#{current_branch}_#{short_hash}"
     archive_zip_name = "#{archive_path}.zip"
 
-    build_app(scheme: "PIA VPN dev",
+    build_app(scheme: "VP VPN dev",
       export_method: "development",
       clean: true,
       configuration: "Debug",
@@ -231,11 +231,11 @@ platform :ios do
       output_name: "#{archive_path}.ipa",
       export_options: {
         provisioningProfiles: { 
-          "com.privateinternetaccess.ios.PIA-VPN" => "match Development com.privateinternetaccess.ios.PIA-VPN",
-          "com.privateinternetaccess.ios.PIA-VPN.Tunnel" => "match Development com.privateinternetaccess.ios.PIA-VPN.Tunnel",
-          "com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel" => "match Development com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel",
-          "com.privateinternetaccess.ios.PIA-VPN.PIAWidget" => "match Development com.privateinternetaccess.ios.PIA-VPN.PIAWidget",
-          "com.privateinternetaccess.ios.PIA-VPN.AdBlocker" => "match Development com.privateinternetaccess.ios.PIA-VPN.AdBlocker"
+          "net.vp.ios.VP-VPN" => "match Development net.vp.ios.VP-VPN",
+          "net.vp.ios.VP-VPN.Tunnel" => "match Development net.vp.ios.VP-VPN.Tunnel",
+          "net.vp.ios.VP-VPN.WG-Tunnel" => "match Development net.vp.ios.VP-VPN.WG-Tunnel",
+          "net.vp.ios.VP-VPN.VPWidget" => "match Development net.vp.ios.VP-VPN.VPWidget",
+          "net.vp.ios.VP-VPN.AdBlocker" => "match Development net.vp.ios.VP-VPN.AdBlocker"
         }
       }
     )
@@ -249,7 +249,7 @@ platform :ios do
   desc "Increase build number for TestFlight"
   private_lane :increment_build_number_testflight do 
     build_number = latest_testflight_build_number(
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN"
+      app_identifier: "net.vp.ios.VP-VPN"
     )
     increment_build_number(
       build_number: build_number + 1 
@@ -271,21 +271,21 @@ desc "This line is for creating testflight build for tvOS"
     )
 
     build_number = latest_testflight_build_number(
-      app_identifier: "com.privateinternetaccess.ios.PIA-VPN",
+      app_identifier: "net.vp.ios.VP-VPN",
       platform: "appletvos"
     )
     increment_build_number(
       build_number: build_number + 1 
     )
     
-    build_app(scheme: "PIA VPN-tvOS",
+    build_app(scheme: "VP VPN-tvOS",
       export_method: "app-store",
       xcargs: "-destination 'platform=tvOS'",
       clean: true,
       export_options: {
         provisioningProfiles: { 
-          "com.privateinternetaccess.ios.PIA-VPN" => "PIA Distribution tvOS",
-          "com.privateinternetaccess.ios.PIA-VPN.PacketTunnel" => "PIA Distribution tvOS PacketTunnel"
+          "net.vp.ios.VP-VPN" => "PIA Distribution tvOS",
+          "net.vp.ios.VP-VPN.PacketTunnel" => "PIA Distribution tvOS PacketTunnel"
         }
       }
     )
@@ -296,4 +296,3 @@ desc "This line is for creating testflight build for tvOS"
       app_platform: "appletvos"
     )
 
-  end

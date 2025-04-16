@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Acheter";
 "purchase.error.validation" = "Vous devez entrer une adresse e-mail.";
 "purchase.error.connectivity.title" = "Échec de la connexion";
-"purchase.error.connectivity.description" = "Nous n'arrivons pas à joindre Private Internet Access. Cela peut être dû à une connexion Internet de faible qualité ou parce que notre service est bloqué dans votre pays.";
+"purchase.error.connectivity.description" = "Nous n'arrivons pas à joindre VP.NET. Cela peut être dû à une connexion Internet de faible qualité ou parce que notre service est bloqué dans votre pays.";
 "purchase.confirm.form.email" = "Saisissez votre adresse e-mail";
 "purchase.confirm.plan" = "Vous achetez le forfait %@";
 "purchase.email.why" = "Nous avons besoin de votre e-mail pour envoyer votre nom d'utilisateur et votre mot de passe.";
@@ -38,7 +38,7 @@
 "purchase.or" = "ou";
 
 "upgrade.header" = "Bienvenue !";
-"upgrade.title" = "Afin d'utiliser Private Internet Access, vous devrez renouveler votre abonnement.";
+"upgrade.title" = "Afin d'utiliser VP.NET, vous devrez renouveler votre abonnement.";
 "upgrade.renew.now" = "Renouveler maintenant";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Informations personnelles que nous collectons";
 "gdpr.collect.data.description" = "Adresse e-mail dans le but de gérer le compte et de protéger des abus.";
 "gdpr.usage.data.title" = "Utilisation des informations personnelles que nous collectons";
-"gdpr.usage.data.description" = "L'adresse e-mail est utilisée pour envoyer les informations d'abonnement, les confirmation de paiement, la correspondance avec le client, et les offres promotionnelles de Private Internet Access uniquement.";
+"gdpr.usage.data.description" = "L'adresse e-mail est utilisée pour envoyer les informations d'abonnement, les confirmation de paiement, la correspondance avec le client, et les offres promotionnelles de VP.NET uniquement.";
 "gdpr.accept.button.title" = "Accepter et continuer";
 
 "update.account.email.error" = "Échec de la modification de l'e-mail du compte";

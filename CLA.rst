@@ -9,4 +9,3 @@ By contributing any improvement, modification, or change to this project, I here
 
 (c) The contribution was lawfully provided to me by a licensed third-party who certified (a), (b) or (c) and I have not modified the contribution.
 
-I understand and agree that the contents of this project and the contents of this contribution are considered to be part of the public record and that a record of the contribution (including all personal information I submit with it) shall be maintained indefinitely and may be redistributed to third-parties consistent with this terms of this project or the open source license(s) involved.

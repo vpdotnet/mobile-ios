@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Kaufen";
 "purchase.error.validation" = "Sie müssen eine E-Mail-Adresse angeben.";
 "purchase.error.connectivity.title" = "Verbindungsfehler";
-"purchase.error.connectivity.description" = "Wir können Private Internet Access nicht erreichen. Dies kann auf eine schlechte Internetverbindung zurückzuführen sein oder unser Service ist in deinem Land blockiert.";
+"purchase.error.connectivity.description" = "Wir können VP.NET nicht erreichen. Dies kann auf eine schlechte Internetverbindung zurückzuführen sein oder unser Service ist in deinem Land blockiert.";
 "purchase.confirm.form.email" = "E-Mail-Adresse eingeben";
 "purchase.confirm.plan" = "Sie erwerben den %@-Tarif.";
 "purchase.email.why" = "Wir benötigen Ihre E-Mail, um Ihren Benutzernamen und Ihr Passwort zu senden.";
@@ -38,7 +38,7 @@
 "purchase.or" = "oder";
 
 "upgrade.header" = "Willkommen zurück!";
-"upgrade.title" = "Sie müssen Ihr Abonnement erneuern, um Private Internet Access nutzen zu können.";
+"upgrade.title" = "Sie müssen Ihr Abonnement erneuern, um VP.NET nutzen zu können.";
 "upgrade.renew.now" = "Jetzt erneuern";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "Art der personenbezogenen Daten, die wir erfassen";
 "gdpr.collect.data.description" = "E-Mail-Adresse zum Zwecke der Kontoverwaltung und zum Schutz vor Missbrauch.";
 "gdpr.usage.data.title" = "Verwendungszwecke für personenbezogene Daten, die von uns erfasst wurden";
-"gdpr.usage.data.description" = "Die E-Mail-Adresse wird lediglich zum Senden von Abonnementinformationen, Zahlungsbestätigungen, Kundenkorrespondenz und Sonderangeboten zu Private Internet Access verwendet.";
+"gdpr.usage.data.description" = "Die E-Mail-Adresse wird lediglich zum Senden von Abonnementinformationen, Zahlungsbestätigungen, Kundenkorrespondenz und Sonderangeboten zu VP.NET verwendet.";
 "gdpr.accept.button.title" = "Zustimmen und fortfahren";
 
 "update.account.email.error" = "Konto-E-Mail nicht geändert";

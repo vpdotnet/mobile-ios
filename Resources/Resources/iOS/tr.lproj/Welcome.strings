@@ -29,7 +29,7 @@
 "gdpr.collect.data.title" = "Topladığımız kişisel bilgiler";
 
 /* (No Comment) */
-"gdpr.usage.data.description" = "E-posta adresi sadece abonelik bilgilerinin, ödeme onaylarının, müşteri iletişim unsurlarının ve Private Internet Access'in promosyonel tekliflerinin gönderilmesi için kullanılır.";
+"gdpr.usage.data.description" = "E-posta adresi sadece abonelik bilgilerinin, ödeme onaylarının, müşteri iletişim unsurlarının ve VP.NET'in promosyonel tekliflerinin gönderilmesi için kullanılır.";
 
 /* (No Comment) */
 "gdpr.usage.data.title" = "Tarafımızca toplanan kişisel bilgilerin kullanım şekilleri";
@@ -80,7 +80,7 @@
 "login.submit" = "GİRİŞ YAP";
 
 /* Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved. */
@@ -201,5 +201,5 @@
 "upgrade.renew.now" = "Hemen yenileyin";
 
 /* (No Comment) */
-"upgrade.title" = "Private Internet Access kullanabilmek için aboneliğinizi yenilemeniz gerekiyor.";
+"upgrade.title" = "VP.NET kullanabilmek için aboneliğinizi yenilemeniz gerekiyor.";
 

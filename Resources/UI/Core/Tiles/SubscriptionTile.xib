@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubscriptionTile" customModule="PIA_VPN" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubscriptionTile" customModule="VP_VPN" customModuleProvider="target">
             <connections>
                 <outlet property="subscriptionTitle" destination="cIz-i0-fhA" id="XIt-ep-bqJ"/>
                 <outlet property="subscriptionValue" destination="kcM-dW-3t2" id="53m-1O-uFO"/>

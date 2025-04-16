@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuickSettingsTile" customModule="PIA_VPN" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuickSettingsTile" customModule="VP_VPN" customModuleProvider="target">
             <connections>
                 <outlet property="browserButton" destination="MIc-dc-WeZ" id="pJw-Mn-UJ7"/>
                 <outlet property="buttonsStackView" destination="0Qp-uW-eAj" id="M2v-H4-mup"/>

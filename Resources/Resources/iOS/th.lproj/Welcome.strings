@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "ซื้อ";
 "purchase.error.validation" = "คุณต้องใส่ที่อยู่อีเมล";
 "purchase.error.connectivity.title" = "ความล้มเหลวในการเชื่อมต่อ";
-"purchase.error.connectivity.description" = "เราไม่สามารถเข้าถึง Private Internet Access ซึ่งอาจเป็นเพราะอินเทอร์เน็ตไม่เสถียรหรือบริการของเราถูกบล็อกในประเทศของคุณ";
+"purchase.error.connectivity.description" = "เราไม่สามารถเข้าถึง VP.NET ซึ่งอาจเป็นเพราะอินเทอร์เน็ตไม่เสถียรหรือบริการของเราถูกบล็อกในประเทศของคุณ";
 "purchase.confirm.form.email" = "กรุณากรอกอีเมลของคุณ";
 "purchase.confirm.plan" = "คุณกำลังซื้อแผน %@";
 "purchase.email.why" = "โปรดแจ้งอีเมลสำหรับส่งชื่อผู้ใช้และรหัสผ่านของคุณ";
@@ -38,7 +38,7 @@
 "purchase.or" = "หรือ";
 
 "upgrade.header" = "ยินดีต้อนรับกลับมา!";
-"upgrade.title" = "หากต้องการใช้ Private Internet Access คุณจะต้องต่ออายุสมาชิกของคุณ";
+"upgrade.title" = "หากต้องการใช้ VP.NET คุณจะต้องต่ออายุสมาชิกของคุณ";
 "upgrade.renew.now" = "ต่ออายุตอนนี้";
 
 
@@ -82,7 +82,7 @@
 "gdpr.collect.data.title" = "ข้อมูลส่วนบุคคลที่เรารวบรวม";
 "gdpr.collect.data.description" = "อีเมลเพื่อจุดประสงค์ในการจัดการและการป้องกันบัญชีจากการใช้งานในทางที่ผิด";
 "gdpr.usage.data.title" = "การใช้ข้อมูลส่วนบุคคลที่เรารวบรวม";
-"gdpr.usage.data.description" = "ที่อยู่อีเมลใช้ในการส่งข้อมูลการสมัครสมาชิก การยืนยันการชำระเงิน การติดต่อกับลูกค้า และข้อเสนอส่งเสริมการขาย Private Internet Access เท่านั้น";
+"gdpr.usage.data.description" = "ที่อยู่อีเมลใช้ในการส่งข้อมูลการสมัครสมาชิก การยืนยันการชำระเงิน การติดต่อกับลูกค้า และข้อเสนอส่งเสริมการขาย VP.NET เท่านั้น";
 "gdpr.accept.button.title" = "ยอมรับและดำเนินการต่อ";
 
 "update.account.email.error" = "ไม่สามารถแก้ไขอีเมลบัญชีได้";

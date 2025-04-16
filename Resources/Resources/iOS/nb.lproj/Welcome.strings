@@ -1,6 +1,6 @@
 /* 
   Welcome.strings
-  PIALibrary
+  VPLibrary
 
   Created by Davide De Rosa on 12/7/17.
   Copyright © 2017 London Trust Media. All rights reserved.
@@ -30,7 +30,7 @@
 "purchase.error.title" = "Kjøp";
 "purchase.error.validation" = "Du må angi en e-postadresse.";
 "purchase.error.connectivity.title" = "Tilkoblingsfeil";
-"purchase.error.connectivity.description" = "Vi kunne ikke nå Private Internet Access. Dette kan skyldes dårlig Internett eller at tjenesten vår er blokkert i landet ditt.";
+"purchase.error.connectivity.description" = "Vi kunne ikke nå VP.NET. Dette kan skyldes dårlig Internett eller at tjenesten vår er blokkert i landet ditt.";
 "purchase.confirm.form.email" = "Angi e-postadressen din";
 "purchase.confirm.plan" = "Du kjøper %@-abonnementet";
 "purchase.email.why" = "Vi trenger e-posten din for å sende deg brukernavnet og passordet ditt.";

@@ -1,11 +1,11 @@
 strings:
     inputs:
-        - PIA VPN/en.lproj/Localizable.strings
+        - VP VPN/en.lproj/Localizable.strings
         - Resources/Resources/Shared/en.lproj/UI.strings
         - Resources/Resources/iOS/en.lproj/Signup.strings
         - Resources/Resources/iOS/en.lproj/Welcome.strings
     templateName: structured-swift4
-    output: PIA VPN/SwiftGen+Strings.swift
+    output: VP VPN/SwiftGen+Strings.swift
 
 ib:
     inputs:
@@ -14,13 +14,13 @@ ib:
         - Resources/UI/Signup.storyboard
     outputs:
         templateName: scenes-swift4
-        output: PIA VPN/SwiftGen+ScenesStoryboards.swift
+        output: VP VPN/SwiftGen+ScenesStoryboards.swift
     outputs.params:
-        module: PIA_VPN
+        module: VP_VPN
 
 xcassets:
     inputs:
-        - PIA VPN/Images.xcassets
+        - VP VPN/Images.xcassets
         - Resources/Resources/iOS/UI.xcassets
     templatePath: Resources/SwiftGen/xcassets/swift4.stencil
-    output: PIA VPN/SwiftGen+Assets.swift
+    output: VP VPN/SwiftGen+Assets.swift

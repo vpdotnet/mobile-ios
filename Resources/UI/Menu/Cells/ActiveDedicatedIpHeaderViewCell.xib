@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActiveDedicatedIpHeaderViewCell" rowHeight="270" id="eAm-ct-IIC" customClass="ActiveDedicatedIpHeaderViewCell" customModule="PIA_VPN" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActiveDedicatedIpHeaderViewCell" rowHeight="270" id="eAm-ct-IIC" customClass="ActiveDedicatedIpHeaderViewCell" customModule="VP_VPN" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="270"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eAm-ct-IIC" id="Lds-1O-pSG">
