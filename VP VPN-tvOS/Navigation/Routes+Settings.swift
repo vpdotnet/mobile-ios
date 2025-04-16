@@ -1,0 +1,41 @@
+//
+//  Routes+Settings.swift
+//  VP VPN-tvOS
+//
+//  Created by Laura S on 2/14/24.
+//  Copyright © 2024 Private Internet Access Inc. All rights reserved.
+// Copyright (c) 2025 VP.NET LLC. All rights reserved.
+//
+
+import Foundation
+import SwiftUI
+
+enum SettingsDestinations: Destinations {
+    case availableSettings
+    case account
+    case general
+    case dip
+}
+
+
+
+
+extension View {
+    func withSettingsRoutes() -> some View {
+        self.navigationDestination(for: SettingsDestinations.self) { destination in
+            switch destination {
+            case .availableSettings:
+                SettingsFactory.makeAvailableSettingsView()
+                    .withTopNavigationBar(title: L10n.Localizable.Menu.Item.settings)
+            case .account:
+                SettingsFactory.makeAccountSettingsView()
+                    .withTopNavigationBar(title: L10n.Localizable.Menu.Item.settings, subtitle: L10n.Localizable.Menu.Item.account)
+            case .general:
+                // TODO: Implement me
+                EmptyView()
+            case .dip:
+                DedicatedIPFactory.makeDedicatedIPView()
+            }
+        }
+    }
+}

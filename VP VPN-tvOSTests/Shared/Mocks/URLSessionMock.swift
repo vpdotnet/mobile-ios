@@ -1,0 +1,32 @@
+//
+//  URLSessionMock.swift
+//  VP VPN-tvOSTests
+//
+//  Created by Laura S on 2/28/24.
+//  Copyright © 2024 Private Internet Access Inc. All rights reserved.
+// Copyright (c) 2025 VP.NET LLC. All rights reserved.
+//
+
+import Foundation
+@testable import VP_VPN_tvOS
+
+class URLSessionMock: URLSessionType {
+    var dataTaskCalled = false
+    var dataTaskCalledAttempt = 0
+    var dataTaskResultData = Data()
+    var dataTaskResultResponse = URLResponse()
+    
+    func data(from url: URL) async throws -> (Data, URLResponse) {
+        dataTaskCalled = true
+        dataTaskCalledAttempt += 1
+        return (dataTaskResultData, dataTaskResultResponse)
+    }
+    
+    func data(for request: URLRequest) async throws -> (Data, URLResponse) {
+        return (dataTaskResultData, dataTaskResultResponse)
+    }
+    
+    func dataTask(with request: URLRequest, completionHandler: @escaping @Sendable (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        URLSession.shared.dataTask(with: request)
+    }
+}

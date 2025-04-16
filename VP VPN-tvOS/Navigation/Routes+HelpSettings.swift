@@ -1,0 +1,40 @@
+//
+//  Routes+HelpSettings.swift
+//  VP VPN-tvOS
+//
+//  Created by Laura S on 2/26/24.
+//  Copyright © 2024 Private Internet Access Inc. All rights reserved.
+// Copyright (c) 2025 VP.NET LLC. All rights reserved.
+//
+
+import Foundation
+import SwiftUI
+
+enum HelpDestinations: Destinations {
+    case root
+    case about
+    case acknowledments
+    case privacyPolicy
+}
+
+extension View {
+    func withHelpRoutes() -> some View {
+        self.navigationDestination(for: HelpDestinations.self) { destination in
+            switch destination {
+            case .root:
+                HelpFactory.makeHelpOptionsView()
+                    .withTopNavigationBar(title: L10n.Localizable.Settings.Section.help)
+            case .about:
+                HelpFactory.makeAboutOptionsView()
+                    .withTopNavigationBar(title: L10n.Localizable.Settings.Section.help, subtitle: L10n.Localizable.Menu.Item.about)
+            case .acknowledments:
+                HelpFactory.makeAcknowledgementsView()
+                    .withTopNavigationBar(title: L10n.Localizable.Settings.Section.help, subtitle: L10n.Localizable.HelpMenu.AboutOptions.Acknowledgements.title)
+            case .privacyPolicy:
+                HelpFactory.makePrivacyPolicyView()
+                    .withTopNavigationBar(title: L10n.Localizable.Settings.Section.help, subtitle: L10n.Localizable.HelpMenu.AboutOptions.PrivacyPolicy.title)
+                    
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+//
+//  SignupProviderType.swift
+//  VP VPN-tvOS
+//
+//  Created by Said Rehouni on 27/4/24.
+//  Copyright © 2024 Private Internet Access Inc. All rights reserved.
+// Copyright (c) 2025 VP.NET LLC. All rights reserved.
+//
+
+import Foundation
+import VPLibrary
+
+protocol SignupProviderType {
+    func signup(email: String, transaction: InAppTransaction?, _ callback: @escaping (Result<UserAccount, SignupError>) -> Void)
+}

@@ -1,0 +1,47 @@
+{
+  "configurations" : [
+    {
+      "id" : "29215987-92F9-408B-A171-72ED6320AD78",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:VP VPN.xcodeproj",
+      "identifier" : "E5C507762B0E144D00200A6A",
+      "name" : "VP VPN-tvOS"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:VP VPN.xcodeproj",
+        "identifier" : "E5C507852B0E145100200A6A",
+        "name" : "VP VPN-tvOSTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:VP VPN.xcodeproj",
+        "identifier" : "E5C5078F2B0E145100200A6A",
+        "name" : "VP VPN-tvOSUITests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:VP VPN.xcodeproj",
+        "identifier" : "35E8E6572B870AD200A3A3DB",
+        "name" : "VP-VPN_tvOS_E2E_Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
