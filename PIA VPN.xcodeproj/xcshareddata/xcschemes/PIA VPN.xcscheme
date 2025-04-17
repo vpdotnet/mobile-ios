@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "291C637B183EBC210039EC03"
-               BuildableName = "PIA VPN.app"
-               BlueprintName = "PIA VPN"
+               BuildableName = "VP.NET VPN.app"
+               BlueprintName = "VP.NET VPN"
                ReferencedContainer = "container:PIA VPN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -87,8 +87,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "291C637B183EBC210039EC03"
-            BuildableName = "PIA VPN.app"
-            BlueprintName = "PIA VPN"
+            BuildableName = "VP.NET VPN.app"
+            BlueprintName = "VP.NET VPN"
             ReferencedContainer = "container:PIA VPN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -120,8 +120,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "291C637B183EBC210039EC03"
-            BuildableName = "PIA VPN.app"
-            BlueprintName = "PIA VPN"
+            BuildableName = "VP.NET VPN.app"
+            BlueprintName = "VP.NET VPN"
             ReferencedContainer = "container:PIA VPN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -137,8 +137,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "291C637B183EBC210039EC03"
-            BuildableName = "PIA VPN.app"
-            BlueprintName = "PIA VPN"
+            BuildableName = "VP.NET VPN.app"
+            BlueprintName = "VP.NET VPN"
             ReferencedContainer = "container:PIA VPN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

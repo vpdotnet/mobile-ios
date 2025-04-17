@@ -1228,7 +1228,7 @@
 		0EFDC1EB1FE4B9DC007C0B9B /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		0EFDC1EE1FE4B9E6007C0B9B /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		2909868F18566430002D9687 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		291C637C183EBC210039EC03 /* PIA VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIA VPN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291C637C183EBC210039EC03 /* VP.NET VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VP.NET VPN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		291C637F183EBC210039EC03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		291C6381183EBC210039EC03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		291C6383183EBC210039EC03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -2275,7 +2275,7 @@
 		291C637D183EBC210039EC03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				291C637C183EBC210039EC03 /* PIA VPN.app */,
+				291C637C183EBC210039EC03 /* VP.NET VPN.app */,
 				0E67FC221E3F802D00EF9929 /* PIA VPN Tunnel.appex */,
 				0EEE1BE71E4F6EF400397DE2 /* PIA VPNTests.xctest */,
 				0EE2207A1F4EF307002805AE /* PIA VPN dev.app */,
@@ -4620,9 +4620,9 @@
 			productReference = 0EFB6070203D7A2C0095398C /* PIA VPN AdBlocker.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		291C637B183EBC210039EC03 /* PIA VPN */ = {
+		291C637B183EBC210039EC03 /* VP.NET VPN */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291C63AE183EBC220039EC03 /* Build configuration list for PBXNativeTarget "PIA VPN" */;
+			buildConfigurationList = 291C63AE183EBC220039EC03 /* Build configuration list for PBXNativeTarget "VP.NET VPN" */;
 			buildPhases = (
 				291C6378183EBC210039EC03 /* Sources */,
 				291C6379183EBC210039EC03 /* Frameworks */,
@@ -4638,7 +4638,7 @@
 				DDC8F5F323EC1070005D19C6 /* PBXTargetDependency */,
 				8269A6E2251CB5E3000B4DBF /* PBXTargetDependency */,
 			);
-			name = "PIA VPN";
+			name = "VP.NET VPN";
 			packageProductDependencies = (
 				AA36CDBA28A6622A00180A33 /* TweetNacl */,
 				AA36CDC328A6711300180A33 /* Popover */,
@@ -4649,7 +4649,7 @@
 				E5C507672B0D609300200A6A /* PIALibrary */,
 			);
 			productName = "PIA VPN";
-			productReference = 291C637C183EBC210039EC03 /* PIA VPN.app */;
+			productReference = 291C637C183EBC210039EC03 /* VP.NET VPN.app */;
 			productType = "com.apple.product-type.application";
 		};
 		35E8E6572B870AD200A3A3DB /* PIA-VPN_tvOS_E2E_Tests */ = {
@@ -4876,9 +4876,7 @@
 						ProvisioningStyle = Manual;
 					};
 					291C637B183EBC210039EC03 = {
-						DevelopmentTeam = 5357M5NW9W;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
 								enabled = 1;
@@ -4989,7 +4987,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				291C637B183EBC210039EC03 /* PIA VPN */,
+				291C637B183EBC210039EC03 /* VP.NET VPN */,
 				0EE2200B1F4EF307002805AE /* PIA VPN dev */,
 				0EFB606F203D7A2C0095398C /* PIA VPN AdBlocker */,
 				0E67FC211E3F802D00EF9929 /* PIA VPN Tunnel */,
@@ -6163,7 +6161,7 @@
 		};
 		0EEE1BED1E4F6EF400397DE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 291C637B183EBC210039EC03 /* PIA VPN */;
+			target = 291C637B183EBC210039EC03 /* VP.NET VPN */;
 			targetProxy = 0EEE1BEC1E4F6EF400397DE2 /* PBXContainerItemProxy */;
 		};
 		0EFB6078203D7A2C0095398C /* PBXTargetDependency */ = {
@@ -6183,7 +6181,7 @@
 		};
 		69CB24A32B051CED00D83A52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 291C637B183EBC210039EC03 /* PIA VPN */;
+			target = 291C637B183EBC210039EC03 /* VP.NET VPN */;
 			targetProxy = 69CB24A22B051CED00D83A52 /* PBXContainerItemProxy */;
 		};
 		8269A6E2251CB5E3000B4DBF /* PBXTargetDependency */ = {
@@ -6789,10 +6787,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN/PIA VPN.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
+				DEVELOPMENT_TEAM = JY688CS254;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6812,7 +6810,7 @@
 				MARKETING_VERSION = 3.25.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.vp.vpnapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.privateinternetaccess.ios.PIA-VPN";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6828,12 +6826,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PIA VPN/PIA VPN.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5357M5NW9W;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5357M5NW9W;
+				DEVELOPMENT_TEAM = JY688CS254;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6853,8 +6849,7 @@
 				MARKETING_VERSION = 3.25.2;
 				PRODUCT_BUNDLE_IDENTIFIER = net.vp.vpnapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.privateinternetaccess.ios.PIA-VPN";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore com.privateinternetaccess.ios.PIA-VPN";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -7625,7 +7620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291C63AE183EBC220039EC03 /* Build configuration list for PBXNativeTarget "PIA VPN" */ = {
+		291C63AE183EBC220039EC03 /* Build configuration list for PBXNativeTarget "VP.NET VPN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291C63AF183EBC220039EC03 /* Debug */,
