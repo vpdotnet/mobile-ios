@@ -25,10 +25,10 @@ import PIALibrary
 
 struct AppConstants {
     
-    static let appId = "955626407"
-    static let teamId = "5357M5NW9W"
+    static let appId = "6744715152"
+    static let teamId = "JY688CS254"
 
-    static let appGroup = "group.com.privateinternetaccess"
+    static let appGroup = "group.net.vp"
     
     struct Reviews {
         static var appReviewUrl = "https://itunes.apple.com/app/id\(appId)?action=write-review"
@@ -48,8 +48,8 @@ struct AppConstants {
     }
 
     struct InApp {
-        static let yearlyProductIdentifier = "com.privateinternetaccess.subscription.year.october.2020"
-        static let monthlyProductIdentifier = "com.privateinternetaccess.subscription.month.october.2020"
+        static let yearlyProductIdentifier = "net.vp.subscription.year.apr.2025"
+        static let monthlyProductIdentifier = "net.vp.subscription.month.apr.2025"
     }
     
     struct LegacyInApp {
@@ -68,25 +68,25 @@ struct AppConstants {
     }
     
     struct Extensions {
-        static let tunnelBundleIdentifier = "com.privateinternetaccess.ios.PIA-VPN.Tunnel"
-        static let tunnelWireguardBundleIdentifier = "com.privateinternetaccess.ios.PIA-VPN.WG-Tunnel"
+        static let tunnelBundleIdentifier = "net.vp.vpnapp.Tunnel"
+        static let tunnelWireguardBundleIdentifier = "net.vp.vpnapp.WG-Tunnel"
 
-        static let adBlockerBundleIdentifier = "com.privateinternetaccess.ios.PIA-VPN.AdBlocker"
+        static let adBlockerBundleIdentifier = "net.vp.vpnapp.AdBlocker"
     }
     
     struct SiriShortcuts {
-        static let shortcutConnect = "com.privateinternetaccess.ios.PIA-VPN.connect"
-        static let shortcutDisconnect = "com.privateinternetaccess.ios.PIA-VPN.disconnect"
+        static let shortcutConnect = "net.vp.vpnapp.connect"
+        static let shortcutDisconnect = "net.vp.vpnapp.disconnect"
     }
     
     struct Web {
-        static let homeURL = URL(string: "https://www.privateinternetaccess.com/")!
+        static let homeURL = URL(string: "https://www.vp.net/")!
 
         static let supportURL = URL(string: "https://www.privateinternetaccess.com/helpdesk")!
         
         static let privacyURL = URL(string: "https://www.privateinternetaccess.com/pages/privacy-policy/")!
 
-        static let csEmail = "helpdesk+vpnpermissions.ios@privateinternetaccess.com"
+        static let csEmail = "support@vp.net"
         
         static let ovpnMigrationURL = URL(string: "https://www.privateinternetaccess.com/helpdesk/kb/articles/removing-openvpn-handshake-and-authentication-settings")!
         
@@ -187,16 +187,16 @@ struct AppConstants {
     }
     
     struct MagicLink {
-        static let url = "piavpn:login?token="
+        static let url = "vpnetvpn:login?token="
     }
     
     struct Widget {
-        static let connect = "piavpn:connect"
-        static let view = "piavpn:view"
+        static let connect = "vpnetvpn:connect"
+        static let view = "vpnetvpn:view"
     }
     
     struct QRSignin {
-        static let url = "piavpn:loginqr?token="
+        static let url = "vpnetvpn:loginqr?token="
     }
     
     struct Survey {

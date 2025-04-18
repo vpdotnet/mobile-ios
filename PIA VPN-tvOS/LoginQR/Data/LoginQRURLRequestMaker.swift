@@ -11,7 +11,7 @@ import Foundation
 class LoginQRURLRequestMaker: URLRequestMaker {
     let hostName: String
     
-    init(hostName: String = "https://privateinternetaccess.com/api/") {
+    init(hostName: String = "https://vp.net/_rest/Network/VPN:apiV1?resource=") {
         self.hostName = hostName
     }
     
@@ -32,7 +32,7 @@ class LoginQRURLRequestMaker: URLRequestMaker {
     func makeGenerateLoginQRURLRequest() -> URLRequest {
         let headers = [
             Endpoint.Header.application_json.rawValue : "accept",
-            Endpoint.Header.user_agent.rawValue : "PIA VPN"
+            Endpoint.Header.user_agent.rawValue : "VPNET VPN"
         ]
         
         let endpoint = Endpoint(path: Endpoint.Path.Authentication.generateLoginQR.rawValue,
