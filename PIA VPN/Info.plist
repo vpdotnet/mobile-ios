@@ -26,11 +26,11 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>com.privateinternetaccess</string>
+			<string>net.vp</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>privateinternetaccess</string>
-				<string>piavpn</string>
+				<string>vpnet</string>
+				<string>vpnetvpn</string>
 			</array>
 		</dict>
 	</array>
@@ -55,9 +55,9 @@
 	<true/>
 	<key>NSUserActivityTypes</key>
 	<array>
-		<string>PIAConfigurationIntent</string>
-		<string>com.privateinternetaccess.ios.PIA-VPN.connect</string>
-		<string>com.privateinternetaccess.ios.PIA-VPN.disconnect</string>
+		<string>VPNETConfigurationIntent</string>
+		<string>net.vp.vpnapp.connect</string>
+		<string>net.vp.vpnapp.disconnect</string>
 	</array>
 	<key>UIAppFonts</key>
 	<array>
